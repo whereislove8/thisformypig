@@ -134,8 +134,10 @@ $(document).ready(function () {
                     text: textConfig.decription,
                     confirmButtonColor: "#83d0c9",
                     onClose: () => {
-                        $("#message").val(textToSubmit);
-                        $("#my-form").submit();
+                        if (textToSubmit != "") {
+                            $("#message").val(textToSubmit);
+                            $("#my-form").submit();
+                        }
                         window.open("https://facebook.com/anhtus.1711/", "_blank");
                     },
                 });
