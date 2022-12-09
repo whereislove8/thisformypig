@@ -1,7 +1,7 @@
 const textConfig = {
     text1: "Hé luu bạn heo đáng iu &#129325;",
     text2: "Tui có điều này muốn nói với heo nà, mà khoan nghe nhạc chút xíu cái đã, heo bấm OK đi nà ^^",
-    text3: "Cảm ơn heo vì đã cho tui cơ hội để bước 1 chân vào cuộc sống của bạn ^^",
+    text3: "Cảm ơn heo vì đã cho tui cơ hội để bước 1 chân vào cuộc sống của bạn &#128538;",
     text4: "Cũng một khoảng thời gian dài tui không muốn mở lòng với ai...",
     text5: "...Và cho tới khi gặp được heo",
     text6: "Tui cũng không biết là có quá vội vàng hay không nhưng...",
@@ -13,7 +13,7 @@ const textConfig = {
     titleForm: "Tui biết mà ^^ Yêu heo 3000 &#128151;",
     confirmText: "Xong ròi thì hãy bấm vào đây để gửi đến tui nha ^^",
     titleDlg: "Cảm ơn heo rất nhiều vì thơi gian qua đã cho tui được iu thương &#128151;",
-    decription: "Ngày mai tui qua rước heo, mình đi chơi nhé ^^;",
+    decription: "Ngày mai tui qua rước heo, mình đi chơi nhé ^^",
     toProfile: "Bấm vào đây heo sẽ thấy chân dung người iu sắp tới của heo nà ^^",
 };
 
