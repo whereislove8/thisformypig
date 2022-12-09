@@ -52,7 +52,7 @@ $(document).ready(function () {
         }).then(function () {
             var audio = new Audio("sound/love.mp3");
             audio.play();
-            $(".content").show(1)
+            $(".content").show(150000)
         });
     }
 
