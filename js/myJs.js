@@ -1,6 +1,6 @@
 const textConfig = {
-    text1: "Hé luu bạn heo đáng iu !",
-    text2: "Tui có điều này muốn nói với heo nà, mà khoan nghe nhạc chút xíu cái đã, bấm 'OK' để tiếp tục nhá ^^",
+    text1: "Hé luu bạn heo đáng iu &#129325;",
+    text2: "Tui có điều này muốn nói với heo nà, mà khoan nghe nhạc chút xíu cái đã, heo bấm OK đi nà ^^",
     text3: "Cảm ơn heo vì đã cho tui cơ hội để bước 1 chân vào cuộc sống của bạn ^^",
     text4: "Cũng một khoảng thời gian dài tui không muốn mở lòng với ai...",
     text5: "...Và cho tới khi gặp được heo",
@@ -8,12 +8,12 @@ const textConfig = {
     text7: "...tui lỡ thích bạn mất ròi",
     text8: "Không biết heo có thể cho tui một cơ hội để bước chân còn lại vào cuộc sống của heo,...",
     text9: "...được đường đường chính chính ở cạnh heo, không còn phải đắn đo suy nghĩ mỗi khi ai đó hỏi chúng ta là gì của nhau",
-    yes: "Heo sẽ cho tui 1 cơ hội <3",
-    no: "Chúc tui may mắn lần sau :(((",
-    titleForm: "Tui biết mà ^^ Yêu heo 3000x",
+    yes: "Heo sẽ cho tui 1 cơ hội &#128151;",
+    no: "Chúc tui may mắn lần sau &#128547;",
+    titleForm: "Tui biết mà ^^ Yêu heo 3000 &#128151;",
     confirmText: "Xong ròi thì hãy bấm vào đây để gửi đến tui nha ^^",
-    titleDlg: "Cảm ơn heo rất nhiều vì thơi gian qua đã cho tui được iu thương <333",
-    decription: "Ngày mai tui qua rước heo, mình đi chơi nhé !!!",
+    titleDlg: "Cảm ơn heo rất nhiều vì thơi gian qua đã cho tui được iu thương &#128151;",
+    decription: "Ngày mai tui qua rước heo, mình đi chơi nhé ^^;",
     toProfile: "Bấm vào đây heo sẽ thấy chân dung người iu sắp tới của heo nà ^^",
 };
 
@@ -52,7 +52,7 @@ $(document).ready(function () {
         }).then(function () {
             var audio = new Audio("sound/love.mp3");
             audio.play();
-            $(".content").show(150000)
+            $(".content").show(1)
         });
     }
 
