@@ -1,20 +1,20 @@
 const textConfig = {
     text1: "Hé luu bạn heo đáng iu &#129325;",
-    text2: "Tui có điều này muốn nói với heo nà, mà khoan nghe nhạc chút xíu cái đã, heo bấm OK đi nà ^^",
+    text2: "Tui có điều này muốn nói với heo, mà khoan nghe nhạc chút xíu cái đã, heo bấm OK đi nà ^^",
     text3: "Cảm ơn heo vì đã cho tui cơ hội để bước 1 chân vào cuộc sống của bạn &#128538;",
     text4: "Cũng một khoảng thời gian dài tui không muốn mở lòng với ai...",
-    text5: "...Và cho tới khi gặp được heo",
-    text6: "Tui cũng không biết là có quá vội vàng hay không nhưng...",
-    text7: "...tui lỡ thích bạn mất ròi",
-    text8: "Không biết heo có thể cho tui một cơ hội để bước chân còn lại vào cuộc sống của heo,...",
-    text9: "...được đường đường chính chính ở cạnh heo, không còn phải đắn đo suy nghĩ mỗi khi ai đó hỏi chúng ta là gì của nhau",
+    text5: "...cho tới khi gặp được heo",
+    text6: "Tui cũng không biết là có quá vội vàng hay không nhưng tui không muốn bỏ lỡ cơ hội này...",
+    text7: "...tui muốn nói là...Tui lỡ thích heo mất rồi",
+    text8: "Heo có thể cho tui một cơ hội để bước chân còn lại vào cuộc sống của heo,...",
+    text9: "...được đường đường chính chính ở cạnh bảo vệ, chắm sóc cho heo. Không còn phải đắn đo suy nghĩ mỗi khi ai đó hỏi chúng ta là gì của nhau. Làm người yêu tui nhé!",
     yes: "Heo sẽ cho tui 1 cơ hội &#128151;",
     no: "Chúc tui may mắn lần sau &#128547;",
     titleForm: "Tui biết mà ^^ Yêu heo 3000 &#128151;",
     confirmText: "Xong ròi thì hãy bấm vào đây để gửi đến tui nha ^^",
     titleDlg: "Cảm ơn heo rất nhiều vì thơi gian qua đã cho tui được iu thương &#128151;",
-    decription: "Ngày mai tui qua rước heo, mình đi chơi nhé ^^",
-    toProfile: "Bấm vào đây heo sẽ thấy chân dung người iu sắp tới của heo nà ^^",
+    decription: "There’s always going to be people that hurt you so what you have to do is keep on trusting and just be more careful about who you trust next time around.",
+    toProfile: "Bấm vào đây heo sẽ thấy chân dung người iu sắp tới của heo nà &#128526;",
 };
 
 $(document).ready(function () {
@@ -52,7 +52,7 @@ $(document).ready(function () {
         }).then(function () {
             var audio = new Audio("sound/love.mp3");
             audio.play();
-            $(".content").show(1)
+            $(".content").show(150000)
         });
     }
 
@@ -69,7 +69,7 @@ $(document).ready(function () {
         $("#yes").css("left", leftNo);
         $("#yes").css("top", topNO);
     }
-    // move random button póition
+    // move random button position
     function moveButton() {
         var audio = new Audio("sound/Swish1.mp3");
         audio.play();
