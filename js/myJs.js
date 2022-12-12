@@ -1,6 +1,6 @@
 const textConfig = {
     text1: "Hé luu bạn heo đáng iu &#129325;",
-    text2: "Tui có điều này muốn nói với heo, mà khoan nghe nhạc chút xíu cái đã, heo bấm OK đi nà ^^",
+    text2: "Tui có điều này muốn nói với heo, mà khoan nghe nhạc chút xíu cái đã, heo bấm OK đi nà!",
     text3: "Cảm ơn heo vì đã cho tui cơ hội để bước 1 chân vào cuộc sống của bạn &#128538;",
     text4: "Cũng một khoảng thời gian dài tui không muốn mở lòng với ai...",
     text5: "...cho tới khi gặp được heo",
