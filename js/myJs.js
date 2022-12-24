@@ -1,6 +1,6 @@
 const textConfig = {
     text1: "Hé luu bạn heo đáng iu &#129325;",
-    text2: "Tui có điều này muốn nói với heo, mà khoan nghe nhạc chút xíu cái đã, heo bấm OK đi nà!",
+    text2: "Tui có điều này muốn nói với heo... mà khoan nghe nhạc chút xíu cái đã, heo bấm OK đi nà!",
     text3: "Cảm ơn heo vì đã cho tui cơ hội để bước 1 chân vào cuộc sống của bạn &#128538;",
     text4: "Cũng một khoảng thời gian dài tui không muốn mở lòng với ai...",
     text5: "...cho tới khi gặp được heo",
@@ -14,7 +14,7 @@ const textConfig = {
     confirmText: "Xong ròi thì hãy bấm vào đây để gửi đến tui nha ^^",
     titleDlg: "Cảm ơn heo rất nhiều vì thơi gian qua đã cho tui được iu thương &#128151;",
     decription: "There’s always going to be people that hurt you so what you have to do is keep on trusting and just be more careful about who you trust next time around.",
-    toProfile: "Bấm vào đây heo sẽ thấy chân dung người iu sắp tới của heo nà &#128526;",
+    toProfile: "Bấm vào đây heo sẽ thấy chân dung người của heo nà &#128526;",
 };
 
 $(document).ready(function () {
